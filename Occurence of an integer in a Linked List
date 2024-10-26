@@ -1,0 +1,8 @@
+class Solution:
+    def count(self, head, key):
+        res=0
+        while head:
+            if head.data==key:
+                res+=1
+            head=head.next
+        return res
